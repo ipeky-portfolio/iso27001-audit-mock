@@ -8,11 +8,10 @@
 3.  **Rechte-Audit:** Abgleich der Berechtigungen eines Administrators mit der Jobbeschreibung.
 4.  **De-Provisioning:** Prüfung, ob Zugänge von 3 ausgeschiedenen Mitarbeitern innerhalb von 24h gesperrt wurden.
 
-## 2. Erwartete Evidenz
-* Active Directory Export (Gruppenmitgliedschaften).
-* Ticketsystem-Auszüge (Zugangsanträge).
-* Protokoll der Quartals-Rezension der Rechte durch Abteilungsleiter.
+## 2. Detaillierte Beispiele für Konformität
+* **A.5.15:** Alle administrativen Zugriffe erfolgen über einen **"Privileged Access Management" (PAM) Tool** mit Sitzungsaufzeichnung.
+* **A.5.18:** Ein vollautomatisierter Prozess sperrt Accounts **sofort** nach Deaktivierung im HR-System.
 
 ## 3. Mögliche Abweichungen (Nonconformities)
-* **Minor:** Ein Mitarbeiter hat Rechte, die nicht mehr benötigt werden.
-* **Major:** Kein Nachweis über die Sperrung von Accounts nach Austritt gefunden.
+* **Minor NC:** Ein Benutzer hat seit 6 Monaten **Leserechte** auf einen SharePoint-Ordner, der nicht mehr seiner Abteilung entspricht.
+* **Major NC:** Die **MFA (Multi-Faktor-Authentifizierung)** ist für VPN-Zugriffe zwar aktiviert, aber Administratoren können diese für sich selbst umgehen.
