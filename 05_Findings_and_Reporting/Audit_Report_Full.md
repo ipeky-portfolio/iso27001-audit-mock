@@ -1,8 +1,8 @@
 # Auszug aus dem Auditbericht (Exemplarisch)
 
-**Unternehmen:** SecureTech GmbH
-**Audit-Datum:** 15.02.2026 - 17.02.2026
-**Lead Auditor:** [Dein Name]
+**Unternehmen:** Muster EE GmbH
+**Audit-Datum:** 15.01.2026 - 15.02.2026
+**Lead Auditor:** Max Mustermann
 
 ## 1. Executive Summary
 Das Informationssicherheits-Managementsystem (ISMS) der SecureTech GmbH zeigt einen **hohen Reifegrad** in den operativen Bereichen. Das Management demonstriert aktives Commitment.
@@ -13,7 +13,7 @@ Das Informationssicherheits-Managementsystem (ISMS) der SecureTech GmbH zeigt ei
 
 ### Befund ID: NC-2026-003 (MAJOR)
 * **ISO 27001:2022 Klausel:** 8.1 (Betriebliche Planung und Steuerung) / A.5.19
-* **Beschreibung:** Für den externen Hosting-Partner "HostCo" liegt kein unterschriebener Vertrag zur Auftragsverarbeitung (AVV) gemäß DSGVO vor. Die Sicherheitsüberprüfung des Partners wurde seit 2 Jahren nicht durchgeführt.
+* **Beschreibung:** Für den externen Hosting-Partner "HostMuster" liegt kein unterschriebener Vertrag zur Auftragsverarbeitung (AVV) gemäß DSGVO vor. Die Sicherheitsüberprüfung des Partners wurde seit 2 Jahren nicht durchgeführt.
 * **Auswirkung:** Unkontrolliertes Risiko durch Datenabfluss bei Dritten.
 * **Empfehlung:** Sofortige Initiierung des Vendor-Risk-Management-Prozesses und Prüfung des Partners.
 
